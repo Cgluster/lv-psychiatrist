@@ -1,6 +1,43 @@
 :root {
     font-size: 16px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    --text-primary: rgb(76, 79, 77);
-    --background-primary: rgb(242, 244, 244);
+    --text-primary: rgb(34, 33, 35);
+    --header-footer-text: rgb(249, 244, 244);
+    --header-footer-color: rgb(108, 108, 232);
+    --background-primary: rgb(231, 230, 230);
+}
+
+body {
+    background-color: var(--background-primary);
+}
+
+h1 {
+    text-align: center;
+}
+
+.header-list-home {
+    list-style: none;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.header-with-tabs {
+    background-color: var(--header-footer-color);
+    padding: 7px;
+    border-radius: 5px;
+    color: var(--header-footer-text);
+}
+
+.header-tabs {
+    color: var(--text-header);
+}
+
+.header-tabs:hover {
+    text-decoration: none;
+}
+
+.title-page {
+    text-align: center;
+    color: var(--text-primary);
 }
