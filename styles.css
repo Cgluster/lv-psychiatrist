@@ -1,0 +1,6 @@
+:root {
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    --text-primary: rgb(76, 79, 77);
+    --background-primary: rgb(242, 244, 244);
+}
